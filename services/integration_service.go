@@ -38,11 +38,10 @@ func (s *IntegrationService) startWorkerPool(workerCount int) {
 // notificationWorker обрабатывает уведомления
 func (s *IntegrationService) notificationWorker(id int) {
 	defer s.wg.Done()
-	
+
 	for notification := range s.notifications {
 		// Имитация отправки уведомления
 		fmt.Printf("Worker %d: Отправка уведомления: %s\n", id, notification)
-		// Здесь могла бы быть интеграция с email/SMS/telegram и т.д.
 	}
 }
 
