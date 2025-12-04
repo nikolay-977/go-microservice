@@ -46,10 +46,10 @@ make docker-run
 make docker-stop
 ```
 
-## Postman коллекции и переменные
+## Postman
 
-[text](<postman/Go Microservice API.postman_collection.json>)
-[text](<postman/Go Microservice Environment.postman_environment.json>)
+- [Коллекции](<postman/Go Microservice API.postman_collection.json>)
+- [Переменные](<postman/Go Microservice Environment.postman_environment.json>)
 
 ## Нагрузочное тестирование
 ```bash
